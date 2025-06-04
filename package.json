@@ -1,0 +1,20 @@
+{
+  "name": "tusky_upload_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bulkUpload.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "csv-parse": "^5.6.0",
+    "form-data": "^4.0.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}

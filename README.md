@@ -19,6 +19,7 @@ Automate file uploads to Tusky.io with this Node.js script.
 ## Configuration
 
 2. **Prepare your files:**
+   - Create a folder named `upload_files`
    - Copy the files you want to upload to the `./upload_files/` directory
    - Example: Place `Example.mp4` in `./upload_files/Example.mp4`
 
@@ -50,3 +51,22 @@ tusky_upload_automation/
 ├── vault_keys.csv        # Vault credentials
 ├── package.json
 └── README.md
+```
+
+## Important Note
+If you have over 2+ to XX accounts, it'll take you a little time to create `vault` on Tusky.io and generate your `API_KEY` to paste it inside the `vault_keys.csv`
+
+For example in `vault_keys.csv`
+
+```
+## Account 1
+6d93a593-259d-4821-a911-bd22b2c6063a,API_ACCOUNT_1
+
+## Account 2
+44c15cf2-9f4d-4d7d-881c-de7af244d288,API_ACCOUNT_2
+
+## Account 3
+6d93a593-259d-4821-a911-bd22b2c6063a,API_ACCOUNT_3
+```
+
+
